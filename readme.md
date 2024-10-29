@@ -16,5 +16,3 @@ node index.js
 OR
 
 nodemon
-
-

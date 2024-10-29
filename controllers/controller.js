@@ -1,3 +1,3 @@
-const modules = require('../modules/module');
+const modules = require('../models/model');
 
 
