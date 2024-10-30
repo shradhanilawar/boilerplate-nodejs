@@ -1,9 +1,9 @@
 const express = require('express');
 const routes = require('./routes/route');
 const app = express();
-require('dotenv').config()
+require('dotenv').config();
 
-const port=process.env.PORT
+const port = process.env.PORT;
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
@@ -20,7 +20,6 @@ app.use('*', (req, res) => {
   res.send({ msg: 'Invalid URL!!!' });
 });
 
-//
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
