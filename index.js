@@ -20,6 +20,7 @@ app.use('*', (req, res) => {
   res.send({ msg: 'Invalid URL!!!' });
 });
 
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
